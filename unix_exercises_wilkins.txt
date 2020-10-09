@@ -1,0 +1,44 @@
+2a. 
+mkdir Astro192
+cd Astro192
+
+4a. 
+6 files
+
+4b.
+StarCharts.pdf
+
+4c.
+ls -S
+
+5a.
+cp StarHeader.txt junk.dat
+
+6a.
+mv junk.dat junque.dat
+
+7a.
+rm junque.dat
+
+8a.
+cat StarHeader.txt
+
+8b.
+Num, RA, DE, Vmag, B-V, Parallax, uRA, uDec
+
+9a.
+echo "caleb wilkins" > small.dat
+
+10a.
+head -100 BrightStars.dat > small.dat
+
+11a.
+tail -10 BrightStars.dat >> small.dat
+
+12a.
+small.dat : 110 lines
+BrightStars.dat : 5016 lines
+
+12b.
+wc small.dat 
+wc BrightStars.dat
